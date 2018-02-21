@@ -17,3 +17,13 @@ Do not forget to change the Database URL in `.env`.
 
 ./bin/console doctrine:database:create
 ./bin/console doctrine:schema:create
+
+# Web server
+
+## Install Symfony web server
+
+./composer req server
+
+## Start
+
+./bin/console server:start
